@@ -22,3 +22,8 @@ user_name = "phuong1027"
 print(user_name)
 
 print(1, 2, 3, 4)
+
+# input => str
+num = int(input("Nhap vao mot so: "))
+print(type(num))
+print(num)
