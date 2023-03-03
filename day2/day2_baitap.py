@@ -19,15 +19,13 @@ print(number1*number2)
 #Bai 4: Nhập vào tên và tuổi của bạn và in ra tên và tuổi của bạn trên cùng một hàng cách nhau bởi dấu | (xổ)
 Name = input('Enter your Name: ')
 Age = input('enter your age: ')
-print(Name | Age)
-#???
+print(Name, Age, sep=" | ")
 
 #Bai 5: Nhập vào một số nguyên n, số thực z, chuỗi s và in các giá trị của chúng trên các dòng riêng biệt
 n = int(input('Enter a integer number: '))
-z = float(input('Enter a float number:'))
-s = str(input('Enter a string'))
+z = float(input('Enter a float number: '))
+s = input('Enter a string: ')
 
 print(n)
 print(z)
 print(s)
-#???
