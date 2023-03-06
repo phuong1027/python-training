@@ -50,4 +50,4 @@ n = 3 * n
 print(n)
 
 n = n - 9
-print(9)
+print(n)
