@@ -30,7 +30,7 @@ print(3 and 4 or 0)
 # and > or, and: 3 = true -> 4, (4 or 0) : 4 = True ->4
 # -> output: 4
 
-print('not' or 'none')  # not (non-empty string) = True, output: not
+print('not' or 'none')  # output: not
 
 print(not 0)  # not 0 ist 1, output: True
 
