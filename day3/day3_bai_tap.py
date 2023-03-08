@@ -30,7 +30,7 @@ print(3 and 4 or 0)
 # and > or, and: 3 = true -> 4, (4 or 0) : 4 = True ->4
 # -> output: 4
 
-print('not' or 'none')  # output: not
+print('not' or 'none')  # not is non-empty string, output: not
 
 print(not 0)  # not 0 ist 1, output: True
 
@@ -50,4 +50,4 @@ n = 3 * n
 print(n)
 
 n = n - 9
-print(9)
+print(n)
