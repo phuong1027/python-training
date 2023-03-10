@@ -6,7 +6,7 @@ films = ["Predator", "John Wick", "One Piece", "gió", "Avenger", "Dune"]
 new_film = input(f"Enter a new film: ")
 
 #Thêm bộ phim vừa nhập vào cuối của danh sách movies
-films.append("Demon Slayer")
+films.append(new_film)
 print(films)
 
 #In ra bộ phim đầu tiên, cuối cùng và ở giữa movies list
@@ -23,24 +23,25 @@ print(len(films))
 
 #Xóa bộ phim đầu và cuối trong movies
 #First
-delete_first_films = films.remove("Predator")
+films.remove("Predator") #remove chi thuc hien hanh dong, k can gan bien.
 print(films)
-print(delete_first_films)
+
 #Last
-delete_last_film = films.remove("Demon Slayer")
+films.remove("Demon Slayer") #remove chi thuc hien hanh dong, k can gan bien.
 print(films)
-print(delete_last_film)
+
 
 #Lấy ra và xóa bộ phim cuối cùng trong movies
-print(films.pop())
+print(films.pop()) #chi in ra bo phim lay ra va xoa no.
+print(films) # thieu 1 buoc in ra danh sach phim
 
 #Chèn một bộ phim bất kỳ vào đầu danh sách movies
-insert_film = films.insert(0, "Inception")
+films.insert(0, "Inception") #remove chi thuc hien hanh dong, k can gan bien.
 print(films)
-print(insert_film)
 
 #Đếm số bộ phim có tiêu đề là "One Piece"
-films.count("One Piece")
+amount_film = films.count("One Piece") #count phai gan bien
+print(amount_film)
 
 #Tìm vị trí của bộ phim có tên là "gió"
 position_of_gio = films.index("gió")
