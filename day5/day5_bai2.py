@@ -1,11 +1,3 @@
-"""
-students = [["SV001", "Bob", 23], ["SV002", "Kenny", 34], ["SV003", "Henry", 45]]
-Yêu cầu:
-a. Lấy ra thông tin của sinh viên thứ nhất và in ra định dạng "ID: {id}, name: {name} - age: {age}"
-b. Lấy ra tuổi của sinh viên thứ hai
-c. Lấy ra thông tin hai sinh viên cuối cùng
-d. Lấy ra id của sinh viên thứ ba
-"""
 #                      0                    1                         2
 #               0       1    2        0       1       2       0       1      2
 students = [["SV001", "Bob", 23], ["SV002", "Kenny", 34], ["SV003", "Henry", 45]]
