@@ -30,11 +30,11 @@ print(album_info.get("release_year"))
 album_info['release_year'] = 1971
 print(album_info)
 
-# Xóa phần tử với key là track_list
+# Xóa phần tử với key là track_list (album_info.pop("track_list")
 del album_info["track_list"]
 print(album_info)
 
-# Thêm một key mới là amount = 2000 bằng hai cách
+# Thêm một key mới là amount = 2000 bằng hai cách 
 #1
 album_info['amount'] = 2000
 print(album_info)
