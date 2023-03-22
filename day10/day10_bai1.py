@@ -11,3 +11,7 @@ print('There are', count_even, 'even numbers')
 print('There are', count_odd, 'odd numbers')
 
 #2 list comprehension
+evens = [x for x in range(0, 1001) if x % 2 ==0]
+odds = [x for x in range(0, 1001) if x % 2 !=0]
+print(evens)
+print(odds)
