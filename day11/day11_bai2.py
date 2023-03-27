@@ -7,8 +7,8 @@
 
 # Hàm nên in ra một chuỗi có định dạng như sau:
 # Breaking Bad (2008) - 5 seasons
-
-def print_show_info(tv_show):
+#1
+""" def print_show_info(tv_show):
     title = tv_show.get("title")
     season = tv_show.get("season")
     initial_release = tv_show.get("initial_release")
@@ -19,4 +19,17 @@ tv_show = {
     "seasons": 5,
     "initial_release": 2008
 }
-print(tv_show)
+print(tv_show) """
+
+#2
+#def
+def print_show_info(tv_show):
+    print(f"{tv_show['title']} ({tv_show['initial_release']}) - {tv_show['seasons']} seasons")
+# Chạy hàm
+info = {
+    "title": "Breaking Bad",
+    "seasons": 5,
+    "initial_release": 2008
+}
+
+print_show_info(info)

@@ -2,13 +2,13 @@
 def add(value1, value2):
     return value1 + value2
 
-def substruct(value1, value2):
+def substract(value1, value2):
     return value1 - value2
 
 def multiply(value1, value2):
     return value1 * value2
 
-def devide(value1, value2):
+def divide(value1, value2):
     if value2 == 0:
         return "Error"
     return value1 / value2
@@ -19,11 +19,11 @@ b = float(input('Enter the second number: '))
 total = add(a, b)
 print('Add =', total)
 
-sub = substruct(a, b)
+sub = substract(a, b)
 print('Substruct =', sub)
 
 mul = multiply(a, b)
 print('Multiply =', mul)
 
-dev = devide(a, b)
-print('Devide =', dev)
+dev = divide(a, b)
+print('Divide =', dev)
