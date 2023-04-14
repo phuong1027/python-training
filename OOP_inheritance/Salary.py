@@ -15,7 +15,7 @@ Số ngày làm việc: {self.so_ngay}
 Hệ số lương: {self.hsl}
 Hệ số hiệu quả: {self.hshq}"""
 
-    def ting_luong(self):
+    def tinh_luong(self):
         luong_tong_chua_thuong = self.lcb * self.so_ngay * self.hsl - 1_000_000
 
         luong_nhan_chua_thuong = luong_tong_chua_thuong
@@ -25,7 +25,7 @@ Hệ số hiệu quả: {self.hshq}"""
 
         luong_thuc_nhan = luong_nhan_chua_thuong * self.hshq
 
-        if self.hshq < 1:
+        if self.hshq >= 1:
             luong_thuong = self.tinh_luong_thuong(luong_tong_chua_thuong)
             luong_thuc_nhan = luong_nhan_chua_thuong + luong_thuong
 
@@ -33,7 +33,7 @@ Hệ số hiệu quả: {self.hshq}"""
     
 
     def hien_thi_luong(self):
-        luong = int(self.ting_luong())
+        luong = int(self.tinh_luong())
         luong_as_str = format(luong, ',d').replace(',', '.')
         print(f"Luong cua nhan vien {self.ten} nhan duoc trong thang {self.thang} la: {luong_as_str} VND.")
 
